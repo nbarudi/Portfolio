@@ -1,0 +1,180 @@
+[
+    {
+        "id": "java",
+        "name": "Java",
+        "colour": "235, 140, 56"
+    },
+    {
+        "id": "c",
+        "name": "C",
+        "colour": "13, 24, 224"
+    },
+    {
+        "id": "cs",
+        "name": "C#",
+        "colour": "7, 237, 30"
+    },
+    {
+        "id": "cpp",
+        "name": "C++",
+        "colour": "13, 24, 224"
+    },
+    {
+        "id": "css",
+        "name": "CSS",
+        "colour": "19, 215, 237",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "html",
+        "name": "HTML",
+        "colour": "255, 153, 0"
+    },
+    {
+        "id": "js",
+        "name": "JavaScript",
+        "colour": "38, 36, 32"
+    },
+    {
+        "id": "kotlin",
+        "name": "Kotlin",
+        "colour": "25, 126, 194"
+    },
+    {
+        "id": "lua",
+        "name": "Lua",
+        "colour": "75, 36, 173"
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "colour": "29, 85, 112"
+    },
+    {
+        "id": "ts",
+        "name": "TypeScript",
+        "colour": "19, 215, 237",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "azure",
+        "name": "Azure",
+        "colour": "19, 215, 237",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "oracle",
+        "name": "Oracle",
+        "colour": "209, 4, 4"
+    },
+    {
+        "id": "heroku",
+        "name": "Heroku",
+        "colour": "129, 12, 232"
+    },
+    {
+        "id": "dotnet",
+        "name": ".NET",
+        "colour": "157, 61, 242"
+    },
+    {
+        "id": "express",
+        "name": "Express.JS",
+        "colour": "98, 92, 110"
+    },
+    {
+        "id": "jquery",
+        "name": "JQuery",
+        "colour": "13, 24, 224"
+    },
+    {
+        "id": "node",
+        "name": "Node.JS",
+        "colour": "16, 204, 79",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "react",
+        "name": "React",
+        "colour": "80, 87, 82"
+    },
+    {
+        "id": "vue",
+        "name": "Vue.JS",
+        "colour": "34, 199, 81",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "spring",
+        "name": "SpringBoot",
+        "colour": "28, 28, 28"
+    },
+    {
+        "id": "apache",
+        "name": "Apache",
+        "colour": "209, 4, 4"
+    },
+    {
+        "id": "maria",
+        "name": "MariaDB",
+        "colour": "32, 61, 107"
+    },
+    {
+        "id": "mongo",
+        "name": "MongoDB",
+        "colour": "34, 199, 81"
+    },
+    {
+        "id": "mysql",
+        "name": "MySQL",
+        "colour": "8, 0, 255"
+    },
+    {
+        "id": "postgres",
+        "name": "Postgres",
+        "colour": "29, 85, 112"
+    },
+    {
+        "id": "linux",
+        "name": "Linux",
+        "colour": "225, 255, 0",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "gradle",
+        "name": "Gradle",
+        "colour": "21, 71, 79"
+    },
+    {
+        "id": "maven",
+        "name": "Maven",
+        "colour": "209, 4, 4"
+    },
+    {
+        "id": "minecraft",
+        "name": "Minecraft",
+        "colour": "15, 128, 62"
+    },
+    {
+        "id": "gmod",
+        "name": "Garry's Mod",
+        "colour": "70, 235, 221",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "colour": "255, 255, 255",
+        "textColour": "50, 57, 59"
+    },
+    {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "colour": "209, 4, 4"
+    },
+    {
+        "id": "docker",
+        "name": "Docker",
+        "colour": "25, 126, 194"
+    }
+]

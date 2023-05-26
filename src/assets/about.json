@@ -1,0 +1,23 @@
+[
+    {
+        "id": "whoami",
+        "name": "Who I Am",
+        "details": [
+            "I am a currently a Computer Science Student.",
+            "I am studying at Ontario Tech University located in Oshawa, Ontario!",
+            "I am always looking for new interesting projects to work on and attempt to grow my portfolio!"
+        ]
+    },
+    {
+        "id": "howitstarted",
+        "name": "How It Started",
+        "details": [
+            "Around 2015 is when I first found an interest in Software Development.",
+            "It all generally began with my interest in wanting to create Plugins for Minecraft.",
+            "I began following Youtube Tutorials to learn everything I could about how these plugins are created and what features were possible.",
+            "This lead into Java being my very first programming language.",
+            "From there my interest grew more. I started learning more indepth features of the game like NMS and Forge Modding.",
+            "Then I expanded my skills and began learning C++ for Reverse Engineering, Python, C#, and many other languages."
+        ]
+    }
+]
