@@ -36,8 +36,7 @@
                 ...cVar,
                 "--textColour": tColour
             }
-
-            var img = "";
+            
             return {
                 cssVars,
                 tag

@@ -6,7 +6,7 @@
             <div class="content">
                 <h1>{{ project.name }}</h1>
                 <div class="container">
-                    <TagComponent v-for="tag in project.tags" :tagId="tag"/>
+                    <TagComponent v-for="tag in project.tags" :key="tag" :tagId="tag"/>
                 </div>
                 <p>{{ project.description }}</p>
             </div>
@@ -32,16 +32,16 @@
             TagComponent
         },
 
-        setup({project}) {
+        setup(props) {
 
             const cssVars = {
-                "--pColour": project.colour  
+                "--pColour": props.project.colour  
             }
 
             let iconSrc: string
 
-            if('icon' in project){
-                iconSrc = project.icon
+            if('icon' in props.project){
+                iconSrc = props.project.icon
             }else{
                 iconSrc = ""
             }

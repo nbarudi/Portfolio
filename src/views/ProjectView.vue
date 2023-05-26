@@ -2,7 +2,7 @@
     <div class="project" :style="cssVars">
         <h1>{{ project?.name }}</h1>
         <div class="container">
-            <TagComponent v-for="tag in project?.tags" :tagId="tag"/>
+            <TagComponent v-for="tag in project?.tags" :key="tag" :tagId="tag"/>
         </div>
         <p>{{ project?.description }}</p>
         <div class="zoneA">
@@ -46,10 +46,10 @@
 
             if(project){
                 project.tech?.forEach((t) =>{
-                    t.usage = t.usage.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+                    t.usage = t.usage.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
                 })
                 if(project.description_long){
-                    project.description_long = project.description_long.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+                    project.description_long = project.description_long.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
                 }
             }
 

@@ -38,17 +38,17 @@
             }
         },
 
-        setup({project}) {
+        setup(props) {
             const slide = ref(0)
 
             function next() {
                 slide.value++
-                if(slide.value >= project.images.length) slide.value = 0
+                if(slide.value >= props.project.images.length) slide.value = 0
             }
 
             function prev() {
                 slide.value--
-                if(slide.value < 0) slide.value = project.images.length-1
+                if(slide.value < 0) slide.value = props.project.images.length-1
             }
 
             function getImage(projectId: string, file: string){

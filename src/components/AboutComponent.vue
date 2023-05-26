@@ -2,7 +2,7 @@
     <div class="section">
         <div class=content>
             <h1>{{ section.name }}</h1>
-            <p v-for="descriptor in section.details">{{ descriptor }}</p>
+            <p v-for="descriptor in section.details" :key="descriptor">{{ descriptor }}</p>
             <hr class="rounded"/>
         </div>
     </div>
