@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Profile from '../views/ProfileView.vue'
 import Projects from "../views/ProjectsView.vue"
 import Project from "../views/ProjectView.vue"
+import Resume from "../views/ResumeView.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,10 @@ const router = createRouter({
     {
       path: "/projects/:project",
       component: Project
+    },
+    {
+      path: '/resume',
+      component: Resume
     }
   ]
 })

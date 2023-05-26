@@ -3,7 +3,8 @@
     <nav>
         <router-link to="/">Profile</router-link> - 
         <router-link to="/about">About Me</router-link> - 
-        <router-link to="/projects">Projects</router-link>
+        <router-link to="/projects">Projects</router-link> -
+		<router-link to="/resume">Resume</router-link>
     </nav>
 
 </template>

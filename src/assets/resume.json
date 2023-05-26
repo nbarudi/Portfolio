@@ -1,0 +1,81 @@
+[
+    {
+        "id": "school",
+        "name": "Education",
+        "content": [
+            {
+                "id": "otu",
+                "location": "Ontario Tech University",
+                "title": "Bachelors of Science (Honors) Co-Op - Computer Science",
+                "startdate": "September 2020",
+                "enddate": "April 2025",
+                "details": [
+                    "I took a Bachelor of Science degree Majoring in Computer Science",
+                    "I took this course with the goal of expanding my knowledge of programming and design",
+                    "I participated in may projects, some of which are listed in the Projects Section",
+                    "Joined many events run by the Student Union"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "work",
+        "name": "Professional Experience",
+        "content": [
+            {
+                "id": "bell-a",
+                "location": "Bell Canada",
+                "title": "Student Software Developer",
+                "startdate": "May 2021",
+                "enddate": "August 2021",
+                "tags": ["java", "js", "html", "css", "spring", "maria", "git", "maven"],
+                "details": [
+                    "My first Co-Op Term with the company",
+                    "I was onboarded and shown the different technologies which were used in my department",
+                    "The project I worked on was an Automated Scheduling tool",
+                    "Backend was built in Java using SpringBoot",
+                    "I was left to handle the project on my own and finished all my tasks quickly",
+                    "I was then later invited to return to the company the following year"
+                ]
+            },
+            {
+                "id": "cse",
+                "location": "Communications Security Establishment",
+                "title": "Software Intern",
+                "startdate": "September 2021",
+                "enddate": "December 2021",
+                "tags": ["git"],
+                "details": [
+                    "Was originally hired as a Co-Op student",
+                    "I was hired as a Part-Time employee in their Business Sector",
+                    "This allowed me to continue getting my degree while working with them",
+                    "I was onboarded and shown UIPath, a Robotic Automation Software",
+                    "UIPath is used to replicate human interaction with a computer",
+                    "It is usually used for automating data entry, emails, and other simple tasks",
+                    "My task was to convert their Data Library from using Screen-Clicks to using API Calls",
+                    "This allowed software using the library to complete their tasks much quicker without needing to wait for all the different interactions to occure"
+                ]
+            },
+            {
+                "id": "bell-b",
+                "location": "Bell Canada",
+                "title": "Student Software Developer",
+                "startdate": "May 2022",
+                "enddate": "Present",
+                "tags": ["java", "js","python", "docker", "kubernetes", "linux", "html", "css", "spring", "maria", "git", "maven"],
+                "details": [
+                    "My second Co-Op Term with the company",
+                    "I was asked to return to the same department",
+                    "One of my tasks includes setting up Jira Notifier services",
+                    "This allows the company to quickly discover and dispatch any errors in production",
+                    "Another task is Data Analysis",
+                    "Using Elastic and Kafka, input and analyze data to allow for quick action in conjunction with the Jira Notifier",
+                    "Creating Unit & Feature testing",
+                    "Created 70% code coverage unit testing for the Scheduler Tool & Feature Testing for endpoints",
+                    "Developed Unit Testing features for the Jira Notifier",
+                    "Set-Up OpenTelemetry services as a proof-of-concept for future projects"
+                ]
+            }
+        ]
+    }
+]
