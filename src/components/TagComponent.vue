@@ -1,7 +1,7 @@
 <template>
 
     <div :style="cssVars" class="box">
-        <img :src="`../src/assets/img/tags/${tagId}.png`">
+        <img :src="iconSrc">
         <b>{{ tag?.name }}</b>
     </div>
 
@@ -36,10 +36,15 @@
                 ...cVar,
                 "--textColour": tColour
             }
+
+            let iconSrc: string = new URL(`../assets/img/tags/${tagId}.png`, import.meta.url).href
+
+            if(iconSrc.includes('undefined')) iconSrc = ''
             
             return {
                 cssVars,
-                tag
+                tag,
+                iconSrc
             }
         }
     })

@@ -41,10 +41,13 @@
             let iconSrc: string
 
             if('icon' in props.project){
-                iconSrc = props.project.icon
-            }else{
-                iconSrc = ""
+                iconSrc = new URL(`../assets/img/projects/${props.project.id}/${props.project.icon}`, import.meta.url).href
+            } else{
+                iconSrc = ''
             }
+
+            if(iconSrc.includes('undefined')) iconSrc = ''
+
 
             return {
                 cssVars,
@@ -61,7 +64,8 @@
 		border: 1px solid black;
 		box-shadow: 0 0 10px rgb(var(--pColour));
 		border-radius: 20px;
-		height: 100%;
+		min-height: 100%;
+        max-height: 100%;
 	}
 	.card:hover {
 		box-shadow: 0 0 15px rgb(var(--pColour));

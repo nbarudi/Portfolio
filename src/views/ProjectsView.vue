@@ -37,10 +37,10 @@
     }
 
     .container {
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-        padding: 0 1rem;
-        padding: clamp(0px, 0.1vw, 5px);
+		padding: 0 1rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(max(195px,35vw), 1fr));
+		grid-gap: 1rem;
+		padding: clamp(0px, 0.1vw, 5px);
     }
 </style>

@@ -4,7 +4,7 @@
         "name": "Portfolio Website",
         "description": "Why! Its the website you're currently on!",
         "colour": "145, 48, 26",
-        "icon": "src/assets/img/logo.png",
+        "icon": "logo.png",
         "tags": ["js", "ts", "html", "css", "vue"],
         "description_long": "This website was made to more properly show the different projects I worked on. I realized that my original method of just giving people a Github profile without a Profile ReadMe was not the best way to handle job applications. But this website was a lot of fun to design and I am happy with the way it turned out. I took a lot of inspiration from DaniDipps portfolio but still did my best to add my own little twists on the design. The website was designed using Vue Components as a base and then dynamically built through reading a set few Json files to allow for quick editing and additions to the portfolio",
         "tech": [
@@ -67,7 +67,7 @@
         "description": "I assisted in adding features to the MagicSpells plugin for an event called Dwarves vs Zombies",
         "tags": ["java", "kotlin", "gradle", "git", "minecraft"],
         "colour": "199, 58, 242",
-        "icon": "src/assets/img/projects/dvz-ms/magicspells.png",
+        "icon": "magicspells.png",
         "description_long": "In this project I assisted another developer Momo in creating new and interesting features for the MagicSpells minecraft Plugin. This mainly consisted of creating Packet Code to allow for more advanced content like Player Clones or Player Nicknames",
         "tech": [
             {
@@ -114,7 +114,7 @@
         "name": "Chat Bubbles for DvZ",
         "description": "A new method for players to talk to each other using Chat Bubbles instead of the normal chat",
         "colour": "107, 163, 219",
-        "icon": "src/assets/img/projects/dvz-chatbubble/chatbubble.png",
+        "icon": "chatbubble.png",
         "description_long": "In this project we used the new Text Displays from Minecraft 1.19.4 to create custom chat messages that spawn above the players head. This allows for a new unique way of creating text chat that players can see. The main purpose of this is used for Role Play on Dwarves vs Zombies!",
         "tags": ["java", "gradle", "minecraft", "git"],
         "tech": [
@@ -148,7 +148,7 @@
         "description": "A Blogging website created for a Class GroupProject",
         "description_long": "This was a Group Project for my Web Development class in University. I worked together with my group do design, code, and test the website before we finally submitted. We used a lot of different software, not all of which was listed, to design the website in the image we imagined.",
         "colour": "45, 48, 51",
-        "icon": "src/assets/img/projects/bloggo/bloggo.png",
+        "icon": "bloggo.png",
         "tags": ["js", "jquery", "html", "css", "express", "vue", "node", "mongo", "git"],
         "tech": [
             {
@@ -215,7 +215,7 @@
         "name": "Spigot Module Loader",
         "description": "A Method of Dynamically loading plugin modules for a Spigot Minecraft Server",
         "colour": "25, 191, 100",
-        "icon": "src/assets/img/tags/minecraft.png",
+        "icon": "minecraft.png",
         "description_long": "In this project I wanted to learn how Plugin Loaders like [Spigot](https://www.spigotmc.org) and [Paper](https://papermc.io) load plugins into the server. I researched into the code of the plugin loaders and did my best to create my own use case for it. This allowed me to quick swap modules on my server for updates or to quickly create new features for the game without all the extra goodies normal Spigot/Paper requires.",
         "tags": ["java", "gradle", "minecraft", "git"],
         "tech": [
@@ -262,7 +262,7 @@
         "name": "Lootable Player Bodies",
         "description": "Instead of items dropping on the ground. A Player is spawned to store the items!",
         "colour": "234, 255, 0",
-        "icon": "src/assets/img/tags/minecraft.png",
+        "icon": "minecraft.png",
         "description_long": "This was one of the first major [NMS](https://www.spigotmc.org/threads/nms-tutorials-1-introduction-to-nms.204127/) based plugins that I had developed. I wanted to create a Lootable Body feature for an SMP I developed instead of using Keep Inventory or Items Dropping. This was a lot of fun to design and the structure for the project was later used for MagicSpells features more recently. Although currently the plugin has not been updated to modern versions of minecraft & the plugin currently does not function the same, the plugin was still a lot of fun to create!",
         "tags": ["java", "gradle", "minecraft", "git"],
         "tech": [
@@ -376,7 +376,7 @@
         "name": "A Re-Creation of DvZ",
         "description": "A Re-Creation of Dwarves vs Zombies (Made before the Original returned)",
         "colour": "219, 0, 183",
-        "icon": "src/assets/img/projects/rdvz/rdvz.png",
+        "icon": "rdvz.png",
         "description_long": "This project was created with the goal of returning to an old version of Dwarves vs Zombies. It was based on a version of the Mini-Game created back in 2012 using the MagicSpells plugin. The Re-Creation was developed from scratch and went through 3 different iterations. <br /><br />The first was based 100% in MagicSpells. This version was 100% true to the original, but the game was very laggy and difficult to add new content to. <br /><br />Thus the second version was generally split half and half between a custom plugin and MagicSpells. This version was a lot of fun to play but was still missing the expandability that I knew was possible. <br /><br />The final revision was built from the ground up using a custom Spigot Plugin for Minecraft 1.12.2. This version of the game ran for around 1 year before the project was abandoned due to lack of interest from the community. <br /><br />On average the event would get 20-30 members each game. Games were run once a week and streamed on Twitch.",
         "tags": ["java", "gradle", "minecraft", "git"],
         "tech": [
@@ -409,7 +409,7 @@
         "name": "Hardcore Plugin",
         "description": "A Custom plugin made for a Hardcore server designed for a handful of friends",
         "colour": "219, 120, 0",
-        "icon": "src/assets/img/projects/hardcore/hardcore.png",
+        "icon": "hardcore.png",
         "description_long": "This project was designed for a twist on normal Hardcore/Survival Minecraft. I had created it with the goal of both giving players a limited number of lives, which would re-charge after 1 day if all were lost, and also giving a Skill Shop to players. This project was the first major system I had created in Minecraft so it was designed very simply but it was loads of fun to play with the community it had. There were around 10-20 consistant players on the server when it was active, it was eventually shut down due to loss of interest. The plugin made use of a Points System where players could gain points by completing Achievements in game. Points were awarded based on the difficulty of the achievement. They could then be spent on Skill Upgrades in a skill shop containing flight, auto smelting, spell, regeneration, and many other perks. As well these points could be used to buy more lives if the player ever got too low. In-Case the player had Skill Points but lost all their lives I had created a Discord Bot which Linked to the server. This lead me to creating a Key System to allow for a link between discord & minecraft accounts.",
         "tags": ["java", "gradle", "minecraft", "js", "git"],
         "tech": [

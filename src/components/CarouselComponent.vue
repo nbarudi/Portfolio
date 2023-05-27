@@ -52,7 +52,7 @@
             }
 
             function getImage(projectId: string, file: string){
-                return `../../src/assets/img/projects/${projectId}/${file}`
+                return new URL(`../assets/img/projects/${projectId}/${file}`, import.meta.url).href
             }
 
             return {
