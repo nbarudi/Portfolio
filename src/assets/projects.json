@@ -330,7 +330,7 @@
         "colour": "234, 255, 0",
         "icon": "minecraft.png",
         "description_long": "This was one of the first major [NMS](https://www.spigotmc.org/threads/nms-tutorials-1-introduction-to-nms.204127/) based plugins that I had developed. I wanted to create a Lootable Body feature for an SMP I developed instead of using Keep Inventory or Items Dropping. This was a lot of fun to design and the structure for the project was later used for MagicSpells features more recently. Although currently the plugin has not been updated to modern versions of minecraft & the plugin currently does not function the same, the plugin was still a lot of fun to create!",
-        "tags": ["java", "Maven", "minecraft", "git"],
+        "tags": ["java", "maven", "minecraft", "git"],
         "tech": [
             {
                 "name": "Java",
