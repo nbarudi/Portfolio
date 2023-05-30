@@ -9,7 +9,7 @@
     <a href="https://github.com/nbarudi" target="_blank"> <img class="refLogo" src="@/assets/img/GitHub-logo.png" /> </a>
 	<a href="https://www.linkedin.com/in/nicholas-barudi/" target="_blank"> <img class="refLogo" src="@/assets/img/linkedin.png" /> </a>
 
-	<p>Contact Me: nbarudi@outlook.com</p>
+	<p>Email: nbarudi@outlook.com</p>
 </template>
 
 <script lang="ts">

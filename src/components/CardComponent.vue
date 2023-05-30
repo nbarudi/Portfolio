@@ -64,8 +64,8 @@
 		border: 1px solid black;
 		box-shadow: 0 0 10px rgb(var(--pColour));
 		border-radius: 20px;
-		min-height: 100%;
-        max-height: 100%;
+		min-height: 175px;
+        max-height: 175px;
 	}
 	.card:hover {
 		box-shadow: 0 0 15px rgb(var(--pColour));

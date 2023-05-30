@@ -5,8 +5,8 @@
         "description": "Why! Its the website you're currently on!",
         "colour": "145, 48, 26",
         "icon": "logo.png",
-        "tags": ["js", "ts", "html", "css", "vue"],
-        "description_long": "This website was made to more properly show the different projects I worked on. I realized that my original method of just giving people a Github profile without a Profile ReadMe was not the best way to handle job applications. But this website was a lot of fun to design and I am happy with the way it turned out. I took a lot of inspiration from DaniDipps portfolio but still did my best to add my own little twists on the design. The website was designed using Vue Components as a base and then dynamically built through reading a set few Json files to allow for quick editing and additions to the portfolio",
+        "tags": ["js", "ts", "html", "css", "vue", "docker", "kubernetes", "git"],
+        "description_long": "This website was made to more properly show the different projects I worked on. I realized that my original method of just giving people a Github profile without a Profile ReadMe was not the best way to handle job applications. But this website was a lot of fun to design and I am happy with the way it turned out. I took a lot of inspiration from DaniDipps portfolio but still did my best to add my own little twists on the design. The website was designed using Vue Components as a base and then dynamically built through reading a set few Json files to allow for quick editing and additions to the portfolio. <br/> The website was then placed onto a dedicated server into a Kubernetes based Docker Environment to keep it running constantly, even between updates! <br/>I had also made use of Githubs CICD platform to automatically build and upload the website to the server",
         "tech": [
             {
                 "name": "Git",
@@ -68,7 +68,7 @@
         "tags": ["java", "kotlin", "gradle", "git", "minecraft"],
         "colour": "199, 58, 242",
         "icon": "magicspells.png",
-        "description_long": "In this project I assisted another developer Momo in creating new and interesting features for the MagicSpells minecraft Plugin. This mainly consisted of creating Packet Code to allow for more advanced content like Player Clones or Player Nicknames",
+        "description_long": "In this project I assisted another developer Momo in creating new and interesting features for the MagicSpells minecraft Plugin. This mainly consisted of creating Packet Code to allow for more advanced content like Player Clones or Player Nicknames. There are a few videos in this list. <br /> The first showcasing the player clones shows how I had set up tracking for the clones to follow a Block Display. This allowed the team to move the player clones without needing to keep track of their exact location. This also opened the ability of using the Bukkit API to move the clones instead of Packets <br/> The second video showcases the ability for players to change their display name. This feature changes the players GameProfile on the server side meaning there is no need to update it in the event a player disconnects as the server will take care of it. This also means the Player List and Commands all interact with the displayed users name, not their original, although the original is still an option. <br/> The third video shows an Animated PasteSpell. Although I did not build the original animation, I had setup the ability for the Spell to undo a schematic using the animation. As well I discovered an error with large schematics causing Stack Overflows and implemented a fix to allow the builds to complete.",
         "tech": [
             {
                 "name": "Java",
@@ -106,6 +106,24 @@
                 "name": "Player Clone Feature",
                 "file": "playerclones.png",
                 "caption": "Spawning Clones of a Player"
+            },
+            {
+                "name": "Player Clone Feature Video",
+                "file": "https://www.youtube.com/embed/iqEx4IB5X_k",
+                "isVideo": true,
+                "caption": "A video of how the Player Clone spell worked"
+            },
+            {
+                "name": "Nickname Feature Video",
+                "file": "https://www.youtube.com/embed/uWGgxg17vOE?mute=1",
+                "isVideo": true,
+                "caption": "The ability to change your nameplate"
+            },
+            {
+                "name": "Airship Build",
+                "file": "https://www.youtube.com/embed/SHiz3SBJR9o?mute=1",
+                "caption": "A Showcase of a Large WorldEdit schematic being built and removed",
+                "isVideo": true
             }
         ]
     },
@@ -115,7 +133,7 @@
         "description": "A new method for players to talk to each other using Chat Bubbles instead of the normal chat",
         "colour": "107, 163, 219",
         "icon": "chatbubble.png",
-        "description_long": "In this project we used the new Text Displays from Minecraft 1.19.4 to create custom chat messages that spawn above the players head. This allows for a new unique way of creating text chat that players can see. The main purpose of this is used for Role Play on Dwarves vs Zombies!",
+        "description_long": "In this project we used the new Text Displays from Minecraft 1.19.4 to create custom chat messages that spawn above the players head. This allows for a new unique way of creating text chat that players can see. The main purpose of this is used for RolePlay on Dwarves vs Zombies! <br/>The main hand I had in this feature was re-structuring the code to a more organized project structure and converting the existing Text Bubble code to a permission based command instead of all chat messages.",
         "tags": ["java", "gradle", "minecraft", "git"],
         "tech": [
             {
@@ -132,6 +150,10 @@
                 "name": "Git",
                 "url": "https://git-scm.com",
                 "usage": "Used for Source Control"
+            },
+            {
+                "name": "Misc Technology",
+                "usage": "Used [Paper](https://papermc.io) to run the server and for the modified Spigot API"
             }
         ],
         "images": [
@@ -139,6 +161,50 @@
                 "name": "Chat Bubbles",
                 "file": "chatbubble.png",
                 "caption": "How the Chat Bubble looks on a Player"
+            },
+            {
+                "name": "Chat in Action",
+                "file": "https://www.youtube.com/embed/57HaT8KHLO8?mute=1",
+                "caption": "The Chat Bubble plugin in action",
+                "isVideo": true
+            }
+        ]
+    },
+    {
+        "id": "dvz-drownedbegone",
+        "name": "DrownedBeGone for DvZ",
+        "description": "A Simple Plugin making use of Mojang Mappings to stop drowned from spawning",
+        "colour": "107, 163, 219",
+        "icon": "minecraft.png",
+        "description_long": "I was given a request by the team who creates DvZ to make a plugin which would stop drowned from spawning (This server being on 1.19.4). They wanted the Zombies to float instead of sinking but were fine with them just not spawning drowneds. <br/> My solution was to simply add the Float pathfinder goal to the Zombies on Spawn. <br/> I also added a Config Option to switch between floating or just disabling spawns.",
+        "tags": ["java", "gradle", "minecraft", "git"],
+        "tech": [
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Gradle",
+                "url": "https://gradle.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+            {
+                "name": "Misc Technology",
+                "usage": "Used [Paper](https://papermc.io) to run the server and for the modified Spigot API"
+            }
+        ],
+        "images": [
+            {
+                "name": "How it looks",
+                "file": "https://www.youtube.com/embed/EM98bHw0GN8?mute=1",
+                "caption": "Showcasing the Plugins Features",
+                "isVideo": true
             }
         ]
     },
@@ -217,7 +283,7 @@
         "colour": "25, 191, 100",
         "icon": "minecraft.png",
         "description_long": "In this project I wanted to learn how Plugin Loaders like [Spigot](https://www.spigotmc.org) and [Paper](https://papermc.io) load plugins into the server. I researched into the code of the plugin loaders and did my best to create my own use case for it. This allowed me to quick swap modules on my server for updates or to quickly create new features for the game without all the extra goodies normal Spigot/Paper requires.",
-        "tags": ["java", "gradle", "minecraft", "git"],
+        "tags": ["java", "maven", "minecraft", "git"],
         "tech": [
             {
                 "name": "Java",
@@ -225,8 +291,8 @@
                 "usage": "The Main Language of Minecraft"
             },
             {
-                "name": "Gradle",
-                "url": "https://gradle.org",
+                "name": "Maven",
+                "url": "https://maven.apache.org",
                 "usage": "Used to build the project"
             },
             {
@@ -264,7 +330,7 @@
         "colour": "234, 255, 0",
         "icon": "minecraft.png",
         "description_long": "This was one of the first major [NMS](https://www.spigotmc.org/threads/nms-tutorials-1-introduction-to-nms.204127/) based plugins that I had developed. I wanted to create a Lootable Body feature for an SMP I developed instead of using Keep Inventory or Items Dropping. This was a lot of fun to design and the structure for the project was later used for MagicSpells features more recently. Although currently the plugin has not been updated to modern versions of minecraft & the plugin currently does not function the same, the plugin was still a lot of fun to create!",
-        "tags": ["java", "gradle", "minecraft", "git"],
+        "tags": ["java", "Maven", "minecraft", "git"],
         "tech": [
             {
                 "name": "Java",
@@ -272,8 +338,8 @@
                 "usage": "The Main Language of Minecraft"
             },
             {
-                "name": "Gradle",
-                "url": "https://gradle.org",
+                "name": "Maven",
+                "url": "https://maven.apache.org",
                 "usage": "Used to build the project"
             },
             {
@@ -302,7 +368,7 @@
     {
         "id": "chatprogram",
         "name": "Chat-Room School Project",
-        "description": "A Chat Program built in JavaFX created as a final assignment",
+        "description": "A Simple Chat Program built in JavaFX created as a second year final assignment",
         "colour": "235, 64, 52",
         "description_long": "This was a Final Assignment for a 2nd Year Computer Science course. Our job was to create a Client&Server application which would connect in some way using Sockets. My choice for this project was to create a simple Chat Service where a person would register to a chat server and then could connect and talk to other users. The Server also had a UI element which allowed who ever owned it to moderate the server which gave them the ability to, mute, kick, and ban users where they saw fit.",
         "tags": ["java", "gradle", "git"],
@@ -368,6 +434,12 @@
                 "name": "User List",
                 "file": "UserList.png",
                 "caption": "How the Server could moderate users"
+            },
+            {
+                "name": "Video Example",
+                "file": "https://www.youtube.com/embed/M1dcTbRchJ4?mute=1",
+                "caption": "Example of the Chat Program in action",
+                "isVideo": true
             }
         ]
     },
@@ -378,7 +450,7 @@
         "colour": "219, 0, 183",
         "icon": "rdvz.png",
         "description_long": "This project was created with the goal of returning to an old version of Dwarves vs Zombies. It was based on a version of the Mini-Game created back in 2012 using the MagicSpells plugin. The Re-Creation was developed from scratch and went through 3 different iterations. <br /><br />The first was based 100% in MagicSpells. This version was 100% true to the original, but the game was very laggy and difficult to add new content to. <br /><br />Thus the second version was generally split half and half between a custom plugin and MagicSpells. This version was a lot of fun to play but was still missing the expandability that I knew was possible. <br /><br />The final revision was built from the ground up using a custom Spigot Plugin for Minecraft 1.12.2. This version of the game ran for around 1 year before the project was abandoned due to lack of interest from the community. <br /><br />On average the event would get 20-30 members each game. Games were run once a week and streamed on Twitch.",
-        "tags": ["java", "gradle", "minecraft", "git"],
+        "tags": ["java", "maven", "minecraft", "git"],
         "tech": [
             {
                 "name": "Java",
@@ -386,8 +458,8 @@
                 "usage": "The Main Language of Minecraft"
             },
             {
-                "name": "Gradle",
-                "url": "https://gradle.org",
+                "name": "Maven",
+                "url": "https://maven.apache.org",
                 "usage": "Used to build the project"
             },
             {
@@ -411,7 +483,7 @@
         "colour": "219, 120, 0",
         "icon": "hardcore.png",
         "description_long": "This project was designed for a twist on normal Hardcore/Survival Minecraft. I had created it with the goal of both giving players a limited number of lives, which would re-charge after 1 day if all were lost, and also giving a Skill Shop to players. This project was the first major system I had created in Minecraft so it was designed very simply but it was loads of fun to play with the community it had. There were around 10-20 consistant players on the server when it was active, it was eventually shut down due to loss of interest. The plugin made use of a Points System where players could gain points by completing Achievements in game. Points were awarded based on the difficulty of the achievement. They could then be spent on Skill Upgrades in a skill shop containing flight, auto smelting, spell, regeneration, and many other perks. As well these points could be used to buy more lives if the player ever got too low. In-Case the player had Skill Points but lost all their lives I had created a Discord Bot which Linked to the server. This lead me to creating a Key System to allow for a link between discord & minecraft accounts.",
-        "tags": ["java", "gradle", "minecraft", "js", "git"],
+        "tags": ["java", "maven", "minecraft", "js", "git"],
         "tech": [
             {
                 "name": "Java",
@@ -419,8 +491,8 @@
                 "usage": "The Main Language of Minecraft"
             },
             {
-                "name": "Gradle",
-                "url": "https://gradle.org",
+                "name": "Maven",
+                "url": "https://maven.apache.org",
                 "usage": "Used to build the project"
             },
             {

@@ -5,6 +5,8 @@
         <h2>This contains some details about my work & school experience</h2>
         <img alt="Headshot" src="@/assets/img/headshot.png" />
         <hr class="rounded">
+        <WhoAmI/>
+        <hr class="rounded">
         <div class="body">
             <ResumeComponent v-for="section in resume" :key="section.id" :section="section" />
         </div>
@@ -16,10 +18,12 @@
     import { defineComponent } from 'vue';
     import resume from '@/assets/resume.json'
     import ResumeComponent from '@/components/ResumeComponent.vue'
+    import WhoAmI from '@/components/WhoAmI.vue';
 
     export default defineComponent({
         components:{
-            ResumeComponent
+            ResumeComponent,
+            WhoAmI
         },
         setup(){
             return {resume}

@@ -5,8 +5,10 @@
         <div class="container">
             <div v-for="(image, index) in project.images" :key="image.name" :style="[slide == index ? 'display: block' : 'display: none']" class="slides fade">
                 <div class="numText">{{ index + 1 }} / {{ project.images.length }}</div>
-                <img :src="getImage(project.id, image.file)" style="width:100%"/>
-                <div class="text">{{ image.caption }}</div>
+                <img :src="getImage(project.id, image.file)" style="width:100%" v-if="!isVideo(image)"/>
+				<iframe v-if="isVideo(image)" :src="image.file + '?mute=1'"></iframe>
+                <div class="text" v-if="!isVideo(image)">{{ image.caption }}</div>
+				<div class="textVideo" v-if="isVideo(image)">{{ image.caption }}</div>
             </div>
 
             <a class="arrow prev" @click="prev">&#10094;</a>
@@ -55,11 +57,19 @@
                 return new URL(`../assets/img/projects/${projectId}/${file}`, import.meta.url).href
             }
 
+			function isVideo(video: Object){
+				if("isVideo" in video){
+					return true
+				}
+				return false
+			}
+
             return {
                 slide,
                 next,
                 prev,
-                getImage
+                getImage,
+				isVideo
             }
         }
     })
@@ -81,6 +91,15 @@
 		max-height: 500px;
 		min-width: 250px;
 		min-height: 250px;
+	}
+
+	iframe {
+		height: auto;
+		width: auto;
+		max-width: 700px;
+		max-height: 400px;
+		min-width: 700px;
+		min-height: 400px;
 	}
 
 	.arrow {
@@ -121,6 +140,17 @@
 		position: absolute;
 		width: 100%;
 		bottom: 0;
+		text-align: center;
+	}
+
+	.textVideo {
+		color: rgb(var(--foreground));
+		background: linear-gradient(180deg, var(--gradient));
+		font-size: 1.2em;
+		padding: 0.3em;
+		position: absolute;
+		width: 100%;
+		top: 0;
 		text-align: center;
 	}
 

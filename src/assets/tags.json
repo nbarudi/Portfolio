@@ -176,5 +176,10 @@
         "id": "docker",
         "name": "Docker",
         "colour": "25, 126, 194"
+    },
+    {
+        "id": "vb",
+        "name": "VB",
+        "colour": "20, 34, 163"
     }
 ]

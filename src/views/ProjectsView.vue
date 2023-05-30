@@ -39,7 +39,7 @@
     .container {
 		padding: 0 1rem;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(max(195px,35vw), 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 		grid-gap: 1rem;
 		padding: clamp(0px, 0.1vw, 5px);
     }
