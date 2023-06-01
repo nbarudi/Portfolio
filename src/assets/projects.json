@@ -62,6 +62,39 @@
         ]
     },
     {
+        "id": "svrmgr",
+        "name": "Server Management",
+        "colour": "50, 168, 82",
+        "icon": "pufferpanel.png",
+        "description": "Managed GameServers using Docker & PufferPanel",
+        "tags": ["java", "minecraft", "linux", "docker"],
+        "description_long": "I manage a handful of minecraft servers and other game servers through a dedicated server. I searched for a good control panel and landed on Puffer Panel which handles a lot of setup for the users. I setup the control panel in docker allowing for quick deployment and quick creation of future servers.",
+        "tech": [
+            {
+                "name": "Docker",
+                "url": "https://www.docker.com",
+                "usage": "Where the server control panel and all sub servers are running"
+            },
+            {
+                "name": "Puffer Panel",
+                "url": "https://www.pufferpanel.com",
+                "usage": "The front end control panel for the game servers"
+            }
+        ],
+        "images": [
+            {
+                "name": "Panel Design",
+                "file": "paneldesign.png",
+                "caption": "The design of the control panel"
+            },
+            {
+                "name": "Server Settings",
+                "file": "serversettings.png",
+                "caption": "Servers Console and options to the user"
+            }
+        ]
+    },
+    {
         "id": "dvz-ms",
         "name": "MagicSpells for DvZ",
         "description": "I assisted in adding features to the MagicSpells plugin for an event called Dwarves vs Zombies",
