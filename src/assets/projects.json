@@ -444,6 +444,35 @@
         ]
     },
     {
+        "id": "servproj",
+        "name": "A Server Network Project",
+        "description": "An attempt at creating a custom built multi-server network for Minecraft.",
+        "tags": ["java", "mysql", "maria", "minecraft", "linux"],
+        "description_long": "I had looked at servers like Mineplex or Hypixel, and decided I wanted to attempt to develop a similar design. My main goal of this project was learning how MySQL worked and the systems around linking data between servers.<br /> The planned design was a link between a Hardcore server (based on a newer design of my previous plugin) a Survival Server (similar systems to the Hardcore just unlimited lives) and my ReCreation of MinecraftClassic. It was a lot of fun learning how to handle MySQL and working with Linux to set up all the servers.",
+        "colour": "218, 245, 66",
+        "tech": [
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Maven",
+                "url": "https://maven.apache.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+            {
+                "name": "Misc Technology",
+                "usage": "Used the [Spigot API](https://www.spigotmc.org) to design and run the servers built in 1.16"
+            }
+        ]
+    },  
+    {
         "id": "rdvz",
         "name": "A Re-Creation of DvZ",
         "description": "A Re-Creation of Dwarves vs Zombies (Made before the Original returned)",

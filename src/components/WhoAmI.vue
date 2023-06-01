@@ -3,8 +3,7 @@
     <h1>Who Am I?</h1>
     <div class="content">
         <div class="list">
-            <p>Age: 20 - Born October 12, 2002</p>
-            <p>Province: Ontario, Canada</p>
+            <p>Location: Ontario, Canada</p>
             <p>Email: nbarudi@outlook.com</p>
             <p>Website: bungo.ca</p>
             <p>Degree: <b>In Progress</b></p>
