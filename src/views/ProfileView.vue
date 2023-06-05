@@ -8,6 +8,7 @@
     </div>
     <a href="https://github.com/nbarudi" target="_blank"> <img class="refLogo" src="@/assets/img/GitHub-logo.png" /> </a>
 	<a href="https://www.linkedin.com/in/nicholas-barudi/" target="_blank"> <img class="refLogo" src="@/assets/img/linkedin.png" /> </a>
+	<a href="https://www.youtube.com/@bungo8179" target="_blank"> <img class="refLogo" src="@/assets/img/youtube.png" /> </a>
 
 	<p>Email: nbarudi@outlook.com</p>
 </template>
