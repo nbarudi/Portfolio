@@ -62,6 +62,50 @@
         ]
     },
     {
+        "id": "recrafted",
+        "name": "Re-Crafted Series",
+        "colour": "115, 50, 168",
+        "icon": "minecraft.png",
+        "description": "A series where I re-created different minecraft minigames.",
+        "description_long": "This is ReCrafted! A project of mine where I attempted to create old minecraft minigames in my own style. All these creations are turned into Videos and posted on my Youtube Channel while also being showcased here. <br /> It's hard to say what technology is used in these projects since it changes a lot based on what I happen to be creating. <br/> In general though it is created using gradle, paper spigot, and, of course, Minecraft!",
+        "tags": ["java", "minecraft", "gradle", "docker", "linux"],
+        "tech":[
+            {
+                "name": "Docker",
+                "url": "https://www.docker.com",
+                "usage": "Where I hosted test-servers for play testing this game."
+            },
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Kotlin",
+                "url": "https://kotlinlang.org",
+                "usage": "Used for Mojang Mappings and for [NMS](https://www.spigotmc.org/threads/nms-tutorials-1-introduction-to-nms.204127/) Code"
+            },
+            {
+                "name": "Gradle",
+                "url": "https://gradle.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            }
+        ],
+        "images": [
+            {
+                "name": "Snake",
+                "file": "https://www.youtube.com/embed/glOvpXXqXQA?mute=1",
+                "isVideo": true,
+                "caption": "Mineplex Snake Re-Created Development Showcase"
+            }
+        ]
+    },
+    {
         "id": "svrmgr",
         "name": "Server Management",
         "colour": "50, 168, 82",
