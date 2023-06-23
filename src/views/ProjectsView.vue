@@ -3,7 +3,8 @@
     <p>
         This is a bunch of different projects that I have worked on over time. <br/>
         It consists of Class Work, Job Experience, and different Personal Projects that I have worked on <br />
-        If I am happy about a project that I have worked on then this is where it usually ends up!
+        If I am happy about a project that I have worked on then this is where it usually ends up! <br />
+        If you want more information about a project! Click on its card! 
     </p>
 
     <div class="container">
