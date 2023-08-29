@@ -61,7 +61,7 @@
                 "location": "Bell Canada",
                 "title": "Student Software Developer",
                 "startdate": "May 2023",
-                "enddate": "Present",
+                "enddate": "August 2023",
                 "tags": ["java", "js","python", "docker", "kubernetes", "linux", "html", "css", "spring", "maria", "git", "maven"],
                 "details": [
                     "My second Co-Op Term with the company",
@@ -73,7 +73,8 @@
                     "Creating Unit & Feature testing",
                     "Created 70% code coverage unit testing for the Scheduler Tool & Feature Testing for endpoints",
                     "Developed Unit Testing features for the Jira Notifier",
-                    "Set-Up OpenTelemetry services as a proof-of-concept for future projects"
+                    "Set-Up OpenTelemetry services as a proof-of-concept for future projects",
+                    "Designed automation services for the decommissioning of hardware"
                 ]
             }
         ]
