@@ -181,5 +181,15 @@
         "id": "vb",
         "name": "VB",
         "colour": "20, 34, 163"
+    },
+    {
+        "id": "antlr",
+        "name": "ANTLR V4",
+        "colour": "150, 0, 0"
+    },
+    {
+        "id": "junit",
+        "name": "JUnit",
+        "colour": "230, 195, 0"
     }
 ]

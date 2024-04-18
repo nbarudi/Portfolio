@@ -62,6 +62,79 @@
         ]
     },
     {
+        "id": "logifylang",
+        "name": "LogifyLang",
+        "description": "A language compiler built using ANTLR V4!",
+        "colour": "150, 0, 0",
+        "icon": "logo.png",
+        "tags": ["java", "kotlin", "antlr", "git", "maven", "junit"],
+        "description_long": "LogifyLang was created as a university project. We had spent the semester learning how to create parsing logic using ANTLR along with linking that parsing logic to backend design to allow the execution of programs. For our final project we had to fully create a language with simple aggregate features such as Sum, Sort, Reverse, and Average. As well, the language had to support standard langauge features such as conditionals, functions, and data types. Myself and my team ad decided to take a javascript approch with dynamic data types and optional semi colons.\n The git repo for this project is located <a href='https://github.com/nbarudi/LogifyLang' target='_blank'>here</a>",
+        "tech": [
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+            {
+                "name": "ANTLR V4",
+                "url": "https://www.antlr.org",
+                "usage": "Used to handle parsing of the language"
+            },
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The base of the compiler portion of the language"
+            },
+            {
+                "name": "Kotlin",
+                "url": "https://kotlinlang.org",
+                "usage": "Used for Majority of the Backend Design for the compiler"
+            },
+            {
+                "name": "JUnit",
+                "url": "https://junit.org/junit5/",
+                "usage": "Used for testing language examples to manage project stability"
+            }
+        ],
+        "images": [
+            {
+                "name": "Array Logic",
+                "file": "arraylogic.png",
+                "caption": "Simple Multi-Type array support"
+            },
+            {
+                "name": "String Concatenation",
+                "file": "strconcat.png",
+                "caption": "String Concatenation and Multiplication"
+            },
+            {
+                "name": "Recursion",
+                "file": "recursion.png",
+                "caption": "Supports Recursive Functions"
+            },
+            {
+                "name": "Each Loops",
+                "file": "eachloop.png",
+                "caption": "A custom version of a For Each loop"
+            },
+            {
+                "name": "Aggregate Data",
+                "file": "aggdata.png",
+                "caption": "Aggregate Functions built into the language"
+            },
+            {
+                "name": "While Loops",
+                "file": "whileloop.png",
+                "caption": "Standard while loop support"
+            },
+            {
+                "name": "For Loop",
+                "file": "forloops.png",
+                "caption": "Standard for loop support"
+            }
+        ]
+    },
+    {
         "id": "recrafted",
         "name": "Re-Crafted Series",
         "colour": "115, 50, 168",
