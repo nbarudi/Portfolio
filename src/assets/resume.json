@@ -26,8 +26,8 @@
                 "id": "bell-a",
                 "location": "Bell Canada",
                 "title": "Student Software Developer",
-                "startdate": "May 2021",
-                "enddate": "August 2021",
+                "startdate": "May 2022",
+                "enddate": "August 2022",
                 "tags": ["java", "js", "html", "css", "spring", "maria", "git", "maven"],
                 "details": [
                     "My first Co-Op Term with the company",
@@ -42,8 +42,8 @@
                 "id": "cse",
                 "location": "Communications Security Establishment",
                 "title": "Software Intern",
-                "startdate": "September 2021",
-                "enddate": "December 2021",
+                "startdate": "September 2022",
+                "enddate": "December 2022",
                 "tags": ["cs", "vb", "dotnet", "git"],
                 "details": [
                     "Was originally hired as a Co-Op student",
@@ -60,8 +60,8 @@
                 "id": "bell-b",
                 "location": "Bell Canada",
                 "title": "Student Software Developer",
-                "startdate": "May 2022",
-                "enddate": "Present",
+                "startdate": "May 2023",
+                "enddate": "August 2023",
                 "tags": ["java", "js","python", "docker", "kubernetes", "linux", "html", "css", "spring", "maria", "git", "maven"],
                 "details": [
                     "My second Co-Op Term with the company",
@@ -73,7 +73,8 @@
                     "Creating Unit & Feature testing",
                     "Created 70% code coverage unit testing for the Scheduler Tool & Feature Testing for endpoints",
                     "Developed Unit Testing features for the Jira Notifier",
-                    "Set-Up OpenTelemetry services as a proof-of-concept for future projects"
+                    "Set-Up OpenTelemetry services as a proof-of-concept for future projects",
+                    "Designed automation services for the decommissioning of hardware"
                 ]
             }
         ]
