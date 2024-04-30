@@ -61,6 +61,59 @@
             }
         ]
     },
+	{
+        "id": "sneakyvaults",
+        "name": "SneakyVaults",
+        "description": "A player vault plugin designed for the SneakyMouse LoM Server.",
+        "colour": "177, 52, 235",
+        "icon": "logo.png",
+        "tags": ["java", "git", "gradle", "minecraft"],
+        "description_long": "SneakyVaults was designed for the Lords of Minecraft 2 server created by Team SneakyMouse. The goal was to create a custom plugin that would give players the ability to create a 'vault' which they can access anywhere at anytime with the use of command. As well, the team wanted to have a method of creating template vaults that players could discover while adveturing around the map. This plugin also contains the ability to create template vaults, open those vaults onto players, and finally keep those template vaults as being per-player persistant allowing for multiple players to claim the same vaults without being able to reset the vault each time they claim.\n The git repo for this project is located <a href='https://github.com/Team-Sneakymouse/SneakyVaults' target='_blank'>here</a>",
+        "tech": [
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Gradle",
+                "url": "https://gradle.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+            {
+                "name": "Misc Technology",
+                "usage": "Used [Paper](https://papermc.io) to run the server and for the modified Spigot API"
+            }
+        ],
+        "images": [
+            {
+                "name": "Sneaky Vaults Logo",
+                "file": "logo.png",
+                "caption": "Logo for the SneakyVaults plugin"
+            },
+			{
+                "name": "Vault Example",
+                "file": "vaultexample.png",
+                "caption": "Example of the vaults"
+            },
+			{
+                "name": "Configurable Sizes",
+                "file": "configsize.png",
+                "caption": "Permission based vault sizes"
+            },
+			{
+                "name": "Vault Templates Feature",
+                "file": "https://www.youtube.com/embed/wBcSH8Gd2c0",
+                "isVideo": true,
+                "caption": "A video of how to use tempalte vaults"
+            }
+        ]
+    },
     {
         "id": "logifylang",
         "name": "LogifyLang",
