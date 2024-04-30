@@ -68,7 +68,7 @@
         "colour": "177, 52, 235",
         "icon": "logo.png",
         "tags": ["java", "git", "gradle", "minecraft"],
-        "description_long": "SneakyVaults was designed for the Lords of Minecraft 2 server created by Team SneakyMouse.\n The goal was to create a custom plugin that would give players the ability to create a 'vault' which they can access anywhere at anytime with the use of a command. As well, the team wanted to have a method of creating template vaults that players could discover while adveturing around the map. As such, this plugin contains the ability to create template vaults, open those vaults for players, and finally keep those template vaults as being per-player persistant allowing for multiple players to claim the same vaults without being able to reset the vault each time they claim.\n The git repo for this project is located <a href='https://github.com/Team-Sneakymouse/SneakyVaults' target='_blank'>here</a>",
+        "description_long": "SneakyVaults was designed for the Lords of Minecraft 2 server created by Team SneakyMouse.<br /> The goal was to create a custom plugin that would give players the ability to create a 'vault' which they can access anywhere at anytime with the use of a command. As well, the team wanted to have a method of creating template vaults that players could discover while adveturing around the map. As such, this plugin contains the ability to create template vaults, open those vaults for players, and finally keep those template vaults as being per-player persistant allowing for multiple players to claim the same vaults without being able to reset the vault each time they claim.<br /> The git repo for this project is located <a href='https://github.com/Team-Sneakymouse/SneakyVaults' target='_blank'>here</a>",
         "tech": [
             {
                 "name": "Java",
@@ -121,7 +121,7 @@
         "colour": "150, 0, 0",
         "icon": "logo.png",
         "tags": ["java", "kotlin", "antlr", "git", "maven", "junit"],
-        "description_long": "LogifyLang was created as a university project. We had spent the semester learning how to create parsing logic using ANTLR along with linking that parsing logic to backend design to allow the execution of programs. For our final project we had to fully create a language with simple aggregate features such as Sum, Sort, Reverse, and Average. As well, the language had to support standard langauge features such as conditionals, functions, and data types. Myself and my team ad decided to take a javascript approch with dynamic data types and optional semi colons.\n The git repo for this project is located <a href='https://github.com/nbarudi/LogifyLang' target='_blank'>here</a>",
+        "description_long": "LogifyLang was created as a university project. We had spent the semester learning how to create parsing logic using ANTLR along with linking that parsing logic to backend design to allow the execution of programs. For our final project we had to fully create a language with simple aggregate features such as Sum, Sort, Reverse, and Average. As well, the language had to support standard langauge features such as conditionals, functions, and data types. Myself and my team ad decided to take a javascript approch with dynamic data types and optional semi colons.<br /> The git repo for this project is located <a href='https://github.com/nbarudi/LogifyLang' target='_blank'>here</a>",
         "tech": [
             {
                 "name": "Git",
