@@ -187,6 +187,152 @@
             }
         ]
     },
+	{
+        "id": "lifeloss",
+        "name": "LifeLoss Vanilla+",
+        "description": "A server plugin which added many modded features into Vanilla Minecraft",
+        "colour": "177, 52, 235",
+        "icon": "logo.png",
+        "tags": ["java", "git", "gradle", "minecraft"],
+        "description_long": "LifeLoss Vanilla+ was a Minecraft Server & Plugin I created.<br />The purpose of the plugin was to push Vanilla Minecraft to its limits by making use of every feature availbale to mimic a modded experience. This project made use of a PaperMC server, ResourcePacks, and ModelEngine to add custom items, blocks, and bosses to the game with no client mods required by the player.<br /> The git repo for this project is located <a href='https://github.com/nbarudi/Hardcore-Server' target='_blank'>here</a>",
+        "tech": [
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Gradle",
+                "url": "https://gradle.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+            {
+                "name": "Misc Technology",
+                "usage": "Used [Paper](https://papermc.io) to run the server and for the modified Spigot API.<br/> Used [ModelEngine](https://mythiccraft.io/index.php?resources/model-engine%E2%80%94ultimate-entity-model-manager-1-19-4-1-20-4.1213/) to add custom boss models. <br/>Used [BlockBench](https://www.blockbench.net) for creating Boss and Item resourcepack models."
+            }
+        ],
+        "images": [
+            {
+                "name": "Lifeloss Logo",
+                "file": "logo.png",
+                "caption": "Logo for the LifeLoss Server"
+            },
+			{
+                "name": "Bag Of Holding",
+                "file": "https://www.youtube.com/embed/-NtPiektYx4",
+                "isVideo": true,
+                "caption": "Bag of Holding where items are stored within the Item Meta"
+            },
+			{
+                "name": "Hand Cannon",
+                "file": "https://www.youtube.com/embed/cbyliBJiBB4",
+                "isVideo": true,
+                "caption": "Hand Cannon, a powerful explosive weapon with heavy knockback"
+            },
+			{
+                "name": "Grapple Hook",
+                "file": "https://www.youtube.com/embed/1Eb8QJROe-I",
+                "isVideo": true,
+                "caption": "Grapple Hook, The ability to fly through the air. Watch out for fall damage"
+            },
+			{
+                "name": "Flash Rod",
+                "file": "https://www.youtube.com/embed/FzEenT2QGwY",
+                "isVideo": true,
+                "caption": "Flash Rod, The power of the clouds is in your hands."
+            },
+			{
+                "name": "Heart Canister",
+                "file": "https://www.youtube.com/embed/jV8b2d20RMg",
+                "isVideo": true,
+                "caption": "Heart Canister, Grow your life pool."
+            },
+			{
+                "name": "Item Magnets",
+                "file": "https://www.youtube.com/embed/HSxIfPd8Mrg",
+                "isVideo": true,
+                "caption": "Item Magnets, Attract items towards you."
+            },
+			{
+                "name": "Lumber Axe",
+                "file": "https://www.youtube.com/embed/Oroe5ZBkLqE",
+                "isVideo": true,
+                "caption": "Lumber Axe, Chop down the whole forest."
+            },
+			{
+                "name": "Nyan Pew Pew",
+                "file": "https://www.youtube.com/embed/6O3Osaz2l9o",
+                "isVideo": true,
+                "caption": "Nyan Pew Pew, This seems familliar? Cat Gun!"
+            },
+			{
+                "name": "Ore Locator",
+                "file": "https://www.youtube.com/embed/bTlf7CU2MW8",
+                "isVideo": true,
+                "caption": "Ore Locators, X-Ray but its not cheating!"
+            },
+			{
+                "name": "Spectral Shears",
+                "file": "https://www.youtube.com/embed/pXnc7_gDmJE",
+                "isVideo": true,
+                "caption": "Spectral Shears, Your soul is now mine."
+            },
+			{
+                "name": "Tunnel Bore",
+                "file": "https://www.youtube.com/embed/-V493WXvQ1M",
+                "isVideo": true,
+                "caption": "Tunnel Bore, Mine in a 3x3x3 area."
+            },
+			{
+                "name": "Block Locks",
+                "file": "https://www.youtube.com/embed/z4KeDah47Ck",
+                "isVideo": true,
+                "caption": "Block Lock, An item to allow a player to lock their chests or furnaces"
+            },
+			{
+                "name": "Claim Flag",
+                "file": "https://www.youtube.com/embed/4FbDF9aekr8",
+                "isVideo": true,
+                "caption": "Claim Flag, A Block for a Player to claim a Chunk"
+            },
+			{
+                "name": "Harvester",
+                "file": "https://www.youtube.com/embed/0poo6bquq0E",
+                "isVideo": true,
+                "caption": "Harvester, Harvest your crops for you."
+            },
+			{
+                "name": "Super Clock",
+                "file": "https://www.youtube.com/embed/DqVJHwsfEI0",
+                "isVideo": true,
+                "caption": "Super Clock, The Watch of Flowing Time but Vanilla!"
+            },
+			{
+                "name": "Weather Controller",
+                "file": "https://www.youtube.com/embed/WDmB2Ryeitk",
+                "isVideo": true,
+                "caption": "Weather Controller, You control the skies."
+            },
+			{
+                "name": "Super Creeper Boss",
+                "file": "https://www.youtube.com/embed/IGMQOlshHic",
+                "isVideo": true,
+                "caption": "The Super Creeper Boss Monster"
+            },
+			{
+                "name": "The Traveler Boss",
+                "file": "https://www.youtube.com/embed/tNVtkNmwcZE",
+                "isVideo": true,
+                "caption": "The Traveler, Wait a minute.. That boss is me!"
+            }
+			
+        ]
+    },
     {
         "id": "logifylang",
         "name": "LogifyLang",
