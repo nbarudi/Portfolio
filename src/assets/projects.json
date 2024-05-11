@@ -62,6 +62,79 @@
         ]
     },
 	{
+        "id": "sneakychar",
+        "name": "SneakyCharacterManager",
+        "description": "A Character Management plugin for the Lords of Minecraft RP Server.",
+        "colour": "199, 51, 18",
+        "icon": "logo.png",
+        "tags": ["java", "git", "gradle", "minecraft"],
+        "description_long": "SneakyCharacterManager was designed for the Lords of Minecraft 2 server created by Team SneakyMouse.<br /> The goal was to create a custom plugin that would give players the ability to create custom characters that they could play while roleplaying. This plugin was our solution to this goal.<br />We designed the plugin to allow players to create multiple difference characters each with different skins and names. These characters could all be selected using the internal character selection menu. When changing characters, the players inventory and location would be automatically saved and loaded based on which character they were playing as.<br />The plugin was also built to make use of BungeeCord. By default all characters created on 1 server could be used on all other servers on the network with the plugin installed. This was very important because with Lords of Minecraft we had 2 linked servers, one where players could build houses and chat with other community members, and another where players would work together in a team to defend their castle.<br />The plugin also made use of Mineskin to allow players to save any skin they want. Along with custom skins the plugin also supported chaning players nametags. Due to limits within Minecraft this was handled by creating a text display mounted on the player with their new nickname.<br />The git repo for this project is located <a href='https://github.com/Team-Sneakymouse/SneakyCharacterManager-Paper' target='_blank'>here</a>",
+        "tech": [
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Gradle",
+                "url": "https://gradle.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+			{
+                "name": "Mineskin",
+                "url": "https://mineskin.org/",
+                "usage": "The API Service used to update player skins"
+            },
+            {
+                "name": "Misc Technology",
+                "usage": "Used [Paper](https://papermc.io) to run the server and for the modified Spigot API"
+            }
+        ],
+        "images": [
+            {
+                "name": "Sneaky Character Manager Logo",
+                "file": "logo.png",
+                "caption": "Logo for the SneakyCharacterManager plugin"
+            },
+			{
+                "name": "Character Selection Menu",
+                "file": "https://i.bungo.ca/u/bUKaPa.png",
+                "caption": "Example of the Character Selection Menu"
+            },
+			{
+                "name": "Automatic Expansion",
+                "file": "https://i.bungo.ca/u/UcdOHq.png",
+                "caption": "Automatic Expansion of Character Selection Menu"
+            },
+			{
+                "name": "Custom Name Tags",
+                "file": "http://i.bungo.ca/u/W5QtuF.png",
+                "caption": "Any Length of Nametags were allowed."
+            },
+			{
+                "name": "Any Skin URL",
+                "file": "http://i.bungo.ca/u/6H596T.png",
+                "caption": "Players could use any skin link."
+            },
+			{
+                "name": "Auto Populate Character Menu",
+                "file": "https://i.bungo.ca/u/UBGBcV.png",
+                "caption": "Auto populates character menu with skins."
+            },
+			{
+                "name": "Show Real Player Names",
+                "file": "http://i.bungo.ca/u/BYsidN.png",
+                "caption": "A command to change seeing a players username"
+            }
+			
+        ]
+    },
+	{
         "id": "sneakyvaults",
         "name": "SneakyVaults",
         "description": "A player vault plugin designed for the SneakyMouse LoM Server.",

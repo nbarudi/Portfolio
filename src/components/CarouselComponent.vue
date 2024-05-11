@@ -54,7 +54,10 @@
             }
 
             function getImage(projectId: string, file: string){
-                return new URL(`../assets/img/projects/${projectId}/${file}`, import.meta.url).href
+				if(file.startsWith("http"))
+					return new URL(file).href
+				else
+                	return new URL(`../assets/img/projects/${projectId}/${file}`, import.meta.url).href
             }
 
 			function isVideo(video: Object){
