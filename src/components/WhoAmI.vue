@@ -43,12 +43,15 @@
     }
 
     .list {
-        flex: 1 1;
-		max-width: 700px;
-		text-align-last: left;
-        margin-left: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 700px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0.5em;
         border: 1px solid black;
-		box-shadow: 0 0 10px #ffffff;
+        box-shadow: 0 0 10px #ffffff;
         border-radius: 20px;
     }
 

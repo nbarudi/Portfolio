@@ -6,14 +6,15 @@
             {
                 "id": "otu",
                 "location": "Ontario Tech University",
-                "title": "Bachelors of Science (Honors) Co-Op - Computer Science",
+                "title": "Bachelors of Science (5 Year Honors) - Computer Science",
                 "startdate": "September 2020",
-                "enddate": "April 2025",
+                "enddate": "January 2025",
+                "tags": ["java", "python", "cpp", "c", "html", "vue", "js", "docker", "kotlin", "maria", "postgres", "git", "gradle", "express", "cs"],
                 "details": [
                     "I took a Bachelor of Science degree Majoring in Computer Science",
-                    "I took this course with the goal of expanding my knowledge of programming and design",
-                    "I participated in may projects, some of which are listed in the Projects Section",
-                    "Joined many events run by the Student Union"
+                    "I took this course with the goal of expanding my knowledge of programming and design. I learned new topics relating to Game Development, standards to follow when creating rational databases, and best practices when developing within a large team to organize git repositories, branches, and code reviews.",
+                    "Joined many events run by the Student Union consisting of E-Sports tournaments, Student Onboarding, and Campus Gatherings",
+                    "I organized team projects to create many integraded systems consisting of Chat Software, Blogging Websites, and both 2D and 3D games built in Unity"
                 ]
             }
         ]
@@ -23,25 +24,23 @@
         "name": "Professional Experience",
         "content": [
             {
-                "id": "bell-a",
+                "id": "bell",
                 "location": "Bell Canada",
-                "title": "Student Software Developer",
+                "title": "Software Developer, Student - Hybrid",
                 "startdate": "May 2022",
-                "enddate": "August 2022",
-                "tags": ["java", "js", "html", "css", "spring", "maria", "git", "maven"],
+                "enddate": "Present",
+                "tags": ["java", "js", "html", "css", "spring", "maria", "git", "maven", "docker", "python", "kubernetes"],
                 "details": [
-                    "My first Co-Op Term with the company",
-                    "I was onboarded and shown the different technologies which were used in my department",
-                    "The project I worked on was an Automated Scheduling tool",
-                    "Backend was built in Java using SpringBoot",
-                    "I was left to handle the project on my own and finished all my tasks quickly",
-                    "I was then later invited to return to the company the following year"
+                    "Researched, Developed and Documented requirements and steps taken to achieve modern Spring Boot services following standard RESTful practices. Organized best practices to be followed by developers when working with Spring Boot for current and future projects. Resulted in much more efficient REST API applications and better code maintainability.",
+                    "Developed and Maintained many MonoRepo integrated systems managing docker builds and automated Gitlab CICD services. Automatically deployed service statistics to Kafka and Elastic for delegating tasks throughout the business team. This resulted in efficient and quick service delivery within the business.",
+                    "Monitored and quicky completed JIRA Tickets thus continuing to achieve an overall 99.5% service uptime for customers and business units demonstrating strong time management skills. Also, designed automated ticketing services to alert developers when errors occur in production resulting in a much more efficient process of repairing system errors.",
+                    "Gathered client requirements and lead a team of developers to produce modern full stack services making use of multiple frameworks to achieve automated internal commissioning and deployment of server hardware."
                 ]
             },
             {
                 "id": "cse",
-                "location": "Communications Security Establishment",
-                "title": "Software Intern",
+                "location": "Communications Security Establishment - Remote",
+                "title": "Software Developer Intern",
                 "startdate": "September 2022",
                 "enddate": "December 2022",
                 "tags": ["cs", "vb", "dotnet", "git"],
@@ -54,27 +53,6 @@
                     "It is usually used for automating data entry, emails, and other simple tasks",
                     "My task was to convert their Data Library from using Screen-Clicks to using API Calls",
                     "This allowed software using the library to complete their tasks much quicker without needing to wait for all the different interactions to occure"
-                ]
-            },
-            {
-                "id": "bell-b",
-                "location": "Bell Canada",
-                "title": "Student Software Developer",
-                "startdate": "May 2023",
-                "enddate": "August 2023",
-                "tags": ["java", "js","python", "docker", "kubernetes", "linux", "html", "css", "spring", "maria", "git", "maven"],
-                "details": [
-                    "My second Co-Op Term with the company",
-                    "I was asked to return to the same department",
-                    "One of my tasks includes setting up Jira Notifier services",
-                    "This allows the company to quickly discover and dispatch any errors in production",
-                    "Another task is Data Analysis",
-                    "Using Elastic and Kafka, input and analyze data to allow for quick action in conjunction with the Jira Notifier",
-                    "Creating Unit & Feature testing",
-                    "Created 70% code coverage unit testing for the Scheduler Tool & Feature Testing for endpoints",
-                    "Developed Unit Testing features for the Jira Notifier",
-                    "Set-Up OpenTelemetry services as a proof-of-concept for future projects",
-                    "Designed automation services for the decommissioning of hardware"
                 ]
             }
         ]
