@@ -60,7 +60,7 @@
                     return projects;
                 }
                 return projects.filter(project =>
-                    selectedTags.value.every(tag => project.tags.includes(tag))
+                    selectedTags.value.some(tag => project.tags.includes(tag))
                 );
             });
 
