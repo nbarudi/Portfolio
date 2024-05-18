@@ -36,4 +36,28 @@ const router = createRouter({
   ]
 })
 
+router.beforeEach((to, from, next) => {
+
+  if (to.query.company) {
+    const companyName = to.query.company
+    //localStorage.setItem('selectedTags', JSON.stringify(filters));
+
+    fetch(`https://service.bungo.ca/db/v1/filter?companyName=${companyName}`)
+        .then(response => response.json())
+        .then(data => {
+          if("filter" in data){
+            const filterData = data["filter"]
+
+            const filters = filterData["filters"]
+            localStorage.setItem('selectedTags', JSON.stringify(filters))
+            console.log(localStorage.getItem('selectedTags'))
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching tags:', error);
+        });
+  }
+  next();
+});
+
 export default router
