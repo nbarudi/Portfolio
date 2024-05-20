@@ -24,30 +24,45 @@
         <CardComponent v-for="project in filteredProjects" :key="project.id" :project="project"/>
     </div>
 
+    <WelcomeComponent 
+        v-if="showWelcome"
+        :show="showWelcome"
+        :tags="selectedTags"
+        @close="closeWelcome" />
+
 </template>
 
 <script lang="ts">
     import { defineComponent, ref, computed, onMounted } from 'vue';
     import CardComponent from '@/components/CardComponent.vue';
     import TagComponent from '@/components/TagComponent.vue';
+    import WelcomeComponent from '@/components/WelcomeComponent.vue';
 
     import projects from '@/assets/projects.json'
     import tags from '@/assets/tags.json'
+    
     
 
     export default defineComponent({
         components: {
             CardComponent,
-            TagComponent
+            TagComponent,
+            WelcomeComponent
         },
 
         setup() {
             const selectedTags = ref<string[]>([])
+            const showWelcome = ref<boolean>(false);
 
             const loadSelectedTags = () => {
                 const storedTags = localStorage.getItem('selectedTags')
                 if(storedTags) {
                     selectedTags.value = JSON.parse(storedTags)
+                }
+                const showModal = localStorage.getItem('showWelcome');
+                if (showModal === 'true') {
+                    showWelcome.value = true;
+                    localStorage.removeItem('showWelcome');
                 }
             }
 
@@ -82,7 +97,11 @@
                 return tags.sort((a, b) => a.id.localeCompare(b.id));
             });
 
-            return { sortedTags, filteredProjects, selectedTags, toggleTag}
+            const closeWelcome = () => {
+                showWelcome.value = false;
+            };
+
+            return { sortedTags, filteredProjects, selectedTags, toggleTag, showWelcome, closeWelcome}
         }
     })
 </script>

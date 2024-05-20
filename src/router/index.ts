@@ -39,7 +39,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
 
   if (to.query.company) {
-    const companyName = to.query.company
+    const companyName: string = to.query.company.toString()
     //localStorage.setItem('selectedTags', JSON.stringify(filters));
 
     fetch(`https://service.bungo.ca/db/v1/filter?companyName=${companyName}`)
@@ -50,7 +50,8 @@ router.beforeEach((to, from, next) => {
 
             const filters = filterData["filters"]
             localStorage.setItem('selectedTags', JSON.stringify(filters))
-            console.log(localStorage.getItem('selectedTags'))
+            localStorage.setItem('companyName', companyName)
+            localStorage.setItem('showWelcome', 'true')
           }
         })
         .catch(error => {
