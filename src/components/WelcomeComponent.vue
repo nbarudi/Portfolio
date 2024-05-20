@@ -25,7 +25,7 @@
     export default defineComponent({
         props: {
             tags: {
-                type: Array,
+                type: Array<string>,
                 required: true,
             },
             show: {
