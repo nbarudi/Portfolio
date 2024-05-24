@@ -6,7 +6,7 @@
             <div v-for="(image, index) in project.images" :key="image.name" :style="[slide == index ? 'display: block' : 'display: none']" class="slides fade">
                 <div class="numText">{{ index + 1 }} / {{ project.images.length }}</div>
                 <img :src="getImage(project.id, image.file)" style="width:100%" v-if="!isVideo(image)"/>
-				<iframe v-if="isVideo(image)" :src="image.file + '?mute=1'"></iframe>
+				<iframe class="video" v-if="isVideo(image)" :src="image.file + '?mute=1'"></iframe>
                 <div class="text" v-if="!isVideo(image)">{{ image.caption }}</div>
 				<div class="textVideo" v-if="isVideo(image)">{{ image.caption }}</div>
             </div>
@@ -202,5 +202,4 @@
 			opacity: 1;
 		}
 	}
-
 </style>

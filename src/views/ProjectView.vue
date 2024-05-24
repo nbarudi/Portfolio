@@ -69,7 +69,12 @@
 </script>
 
 <style>
-
+    @media only screen and (max-width: 900px) {
+		.zoneA {
+			flex-direction: column-reverse;
+			align-items: center;
+		}
+	}
     .container {
         align-items: center;
         justify-content: center;

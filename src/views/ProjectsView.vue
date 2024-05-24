@@ -151,4 +151,17 @@ p {
     color: rgba(255, 255, 255, 0);
     border-color: #00ff0dc9;
 }
+
+@media only screen and (max-width: 450px) {
+    p {
+        font-size: 16px;
+    }
+
+    .container {
+        grid-template-columns: minmax(290px, 1fr);
+        grid-gap: 1rem;
+        padding: clamp(0px, 0.1vw, 5px);
+    }
+
+}
 </style>

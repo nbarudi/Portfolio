@@ -107,4 +107,16 @@
         flex-wrap: wrap;
         gap: 5px;
     }
+    @media only screen and (max-width: 450px) {
+        p {
+            overflow: auto;
+            max-height: 2rem;
+            font-size: 16px;
+        }
+        .container {
+            overflow: auto;
+            gap: 1px;
+            max-height: 1.5rem;
+        }
+    }
 </style>
