@@ -23,20 +23,12 @@
     <div class="container">
         <CardComponent v-for="project in filteredProjects" :key="project.id" :project="project"/>
     </div>
-
-    <WelcomeComponent 
-        v-if="showWelcome"
-        :show="showWelcome"
-        :tags="selectedTags"
-        @close="closeWelcome" />
-
 </template>
 
 <script lang="ts">
     import { defineComponent, ref, computed, onMounted } from 'vue';
     import CardComponent from '@/components/CardComponent.vue';
     import TagComponent from '@/components/TagComponent.vue';
-    import WelcomeComponent from '@/components/WelcomeComponent.vue';
 
     import projects from '@/assets/projects.json'
     import tags from '@/assets/tags.json'
@@ -46,8 +38,7 @@
     export default defineComponent({
         components: {
             CardComponent,
-            TagComponent,
-            WelcomeComponent
+            TagComponent
         },
 
         setup() {

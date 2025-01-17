@@ -6,7 +6,7 @@
             <div class="content">
                 <h1>{{ project.name }}</h1>
                 <div class="container">
-                    <TagComponent v-for="tag in formattedTags" :key="tag" :tagObject="tag"/>
+                    <TagComponent v-for="tag in formattedTags" :key="tag.name" :tagObject="tag"/>
                 </div>
                 <p>{{ project.description }}</p>
             </div>
@@ -48,20 +48,20 @@
 
             if(iconSrc.includes('undefined')) iconSrc = ''
             
-            let formattedTags = {}
+            let formattedTags = []
 
             for(var tag of props.project.tags) {
                 let splitData = tag.split(" ")
                 if(splitData.length > 1){
-                    formattedTags[splitData[0]] = {
+                    formattedTags.push({
                         name: splitData[0],
                         perc: splitData[1]
-                    }
+                    })
                 }
                 else {
-                    formattedTags[splitData[0]] = {
+                    formattedTags.push({
                         name: splitData[0]
-                    }
+                    })
                 }
             }
 
