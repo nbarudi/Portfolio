@@ -2,7 +2,7 @@
     <div class="project" :style="cssVars">
         <h1>{{ project?.name }}</h1>
         <div class="container">
-            <TagComponent v-for="tag in project?.tags" :key="tag" :tagId="tag"/>
+            <TagComponent v-for="tag in project?.tags" :key="tag" :tagObject="{name: tag}"/>
         </div>
         <p>{{ project?.description }}</p>
         <div class="zoneA">

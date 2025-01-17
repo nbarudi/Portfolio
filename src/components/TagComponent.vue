@@ -2,7 +2,8 @@
 
     <div :style="cssVars" class="box">
         <img :src="iconSrc">
-        <b>{{ tag?.name }}</b>
+        <b>{{ tag?.name }}</b> 
+        <b v-if="tagObject.perc">&nbsp;{{ tagObject?.perc }}%</b>
     </div>
 
 </template>
@@ -13,15 +14,14 @@
 
     export default defineComponent({
         props: {
-            tagId: {
-                type: String,
+            tagObject: {
+                type: Object,
                 required: true
             }
         },
 
-        setup({tagId}){
-
-            const tag = tags.find((t) => t.id == tagId)
+        setup({tagObject}){
+            const tag = tags.find((t) => t.id == tagObject.name)
 
             var cVar = {
                 "--tagColour": tag?.colour
@@ -37,14 +37,15 @@
                 "--textColour": tColour
             }
 
-            let iconSrc: string = new URL(`../assets/img/tags/${tagId}.png`, import.meta.url).href
+            let iconSrc: string = new URL(`../assets/img/tags/${tagObject.name}.png`, import.meta.url).href
 
             if(iconSrc.includes('undefined')) iconSrc = ''
             
             return {
                 cssVars,
                 tag,
-                iconSrc
+                iconSrc,
+                tagObject
             }
         }
     })

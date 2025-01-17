@@ -16,7 +16,7 @@
             @click="toggleTag(tag.id)" 
             :class="{ selected: selectedTags.includes(tag.id) }" 
             class="tag-button">
-            <TagComponent :tagId="tag.id" />
+            <TagComponent :tagObject="{name: tag.id}" />
         </button>
     </div>
 

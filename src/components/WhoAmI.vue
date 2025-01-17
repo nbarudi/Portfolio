@@ -5,8 +5,8 @@
         <div class="list">
             <p>Location: Ontario, Canada</p>
             <p>Email: nbarudi@outlook.com</p>
-            <p>Website: bungo.ca</p>
-            <p>Degree: <b>In Progress</b></p>
+            <p>Website: nbarudi.ca</p>
+            <p>Degree: <b>Bachelor of Science, Computer Science</b></p>
             <p>A Little About Me:</p>
             <ul>
                 <li>A motivated developer, always looking for ways to improve skills by taking on new projects.</li>

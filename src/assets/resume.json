@@ -1,25 +1,5 @@
 [
     {
-        "id": "school",
-        "name": "Education",
-        "content": [
-            {
-                "id": "otu",
-                "location": "Ontario Tech University",
-                "title": "Bachelors of Science (5 Year Honors) - Computer Science",
-                "startdate": "September 2020",
-                "enddate": "January 2025",
-                "tags": ["java", "python", "cpp", "c", "html", "vue", "js", "docker", "kotlin", "maria", "postgres", "git", "gradle", "express", "cs"],
-                "details": [
-                    "I took a Bachelor of Science degree Majoring in Computer Science",
-                    "I took this course with the goal of expanding my knowledge of programming and design. I learned new topics relating to Game Development, standards to follow when creating rational databases, and best practices when developing within a large team to organize git repositories, branches, and code reviews.",
-                    "Joined many events run by the Student Union consisting of E-Sports tournaments, Student Onboarding, and Campus Gatherings",
-                    "I organized team projects to create many integrated systems consisting of Chat Software, Blogging Websites, and both 2D and 3D games built in Unity"
-                ]
-            }
-        ]
-    },
-    {
         "id": "work",
         "name": "Professional Experience",
         "content": [
@@ -28,31 +8,48 @@
                 "location": "Bell Canada",
                 "title": "Software Developer, Student - Hybrid",
                 "startdate": "May 2022",
-                "enddate": "Present",
-                "tags": ["java", "js", "html", "css", "spring", "maria", "git", "maven", "docker", "python", "kubernetes"],
+                "enddate": "Auguest 2024",
+                "tags": ["java 70", "js 10", "html 10", "css 10", "spring 60", "mysql 30", "python 20", "git", "maven", "docker", "kubernetes"],
                 "details": [
-                    "Researched, Developed and Documented requirements and steps taken to achieve modern Spring Boot services following standard RESTful practices. Organized best practices to be followed by developers when working with Spring Boot for current and future projects. Resulted in much more efficient REST API applications and better code maintainability.",
-                    "Developed and Maintained many MonoRepo integrated systems managing docker builds and automated Gitlab CICD services. Automatically deployed service statistics to Kafka and Elastic for delegating tasks throughout the business team. This resulted in efficient and quick service delivery within the business.",
-                    "Monitored and quicky completed JIRA Tickets thus continuing to achieve an overall 99.5% service uptime for customers and business units demonstrating strong time management skills. Also, designed automated ticketing services to alert developers when errors occur in production resulting in a much more efficient process of repairing system errors.",
-                    "Gathered client requirements and lead a team of developers to produce modern full stack services making use of multiple frameworks to achieve automated internal commissioning and deployment of server hardware."
+                    "Designed and implemented Spring Boot solutions, ensuring compliance with RESTful practices to deliver reliable services. Documented best practices to improve developer workflows, boosting project consistency and efficiency.",
+                    "Managed MonoRepo systems for integrated Docker builds and automated GitLab CI/CD pipelines, enabling seamless deployment of microservices and reducing overhead.",
+                    "Automated the publication of service statistics to Kafka and Elastic, streamlining task allocation and improving business team productivity.",
+                    "Led a student team to develop API services for phone management, enhancing client interactions and streamlining internal processes."
                 ]
             },
             {
                 "id": "cse",
-                "location": "Communications Security Establishment - Remote",
+                "location": "Government of Canada - Remote",
                 "title": "Software Developer Intern",
                 "startdate": "September 2022",
                 "enddate": "December 2022",
-                "tags": ["cs", "vb", "dotnet", "git"],
+                "tags": ["cs 40", "vb 40", "dotnet 20", "git"],
                 "details": [
-                    "Was originally hired as a Co-Op student",
-                    "I was hired as a Part-Time employee in their Business Sector",
-                    "This allowed me to continue getting my degree while working with them",
-                    "I was onboarded and shown UIPath, a Robotic Automation Software",
-                    "UIPath is used to replicate human interaction with a computer",
-                    "It is usually used for automating data entry, emails, and other simple tasks",
-                    "My task was to convert their Data Library from using Screen-Clicks to using API Calls",
-                    "This allowed software using the library to complete their tasks much quicker without needing to wait for all the different interactions to occure"
+                    "I was hired as a Co-Op student and later transitioned to a Part-Time role in the Business Sector to continue academic studies while contributing professionally.",
+                    "Onboarded and trained in using UIPath, a robotic process automation (RPA) tool designed to replicate human interactions with computers for tasks such as data entry and email automation.",
+                    "Tasked with optimizing the organization's Data Library by transitioning from a reliance on screen-clicks to more efficient API calls, enhancing the library's performance and reliability.",
+                    "Successfully implemented improvements that significantly reduced task execution times by eliminating delays caused by screen interactions."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "school",
+        "name": "Education",
+        "content": [
+            {
+                "id": "otu",
+                "location": "Ontario Tech University",
+                "title": "Bachelors of Science, Computer Science",
+                "startdate": "September 2020",
+                "enddate": "December 2024",
+                "tags": ["java", "python", "cpp", "c", "html", "vue", "js", "docker", "kotlin", "mysql", "postgres", "git", "gradle", "express", "cs"],
+                "details": [
+                    "Gained expertise in relational database design, adhering to industry standards for creating and managing rational databases.",
+                    "Learned best practices in version control, including repository organization, branching strategies, and code review processes within large development teams.",
+                    "Developed skills in enterprise and business software development, focusing on building scalable and efficient systems.",
+                    "Completed projects involving integrated systems, including chat software, blogging platforms, and other software solutions.",
+                    "Participated in student union activities, such as E-Sports tournaments, onboarding events, and campus gatherings, fostering collaboration and leadership skills."
                 ]
             }
         ]

@@ -3,9 +3,9 @@
         "id": "whoami",
         "name": "Who I Am",
         "details": [
-            "I am a currently a Computer Science Student.",
-            "I am studying at Ontario Tech University located in Oshawa, Ontario!",
-            "I am always looking for new interesting projects to work on and attempt to grow my portfolio!"
+            "I am a recent University graduate.",
+            "I have graduated with a Bachelor of Science, Computer Science from Ontario Tech University.",
+            "I am always looking for new interesting projects to work on and attempt to grow my portfolio."
         ]
     },
     {
@@ -16,7 +16,7 @@
             "It all generally began with my interest in wanting to create Plugins for Minecraft.",
             "I began following Youtube Tutorials to learn everything I could about how these plugins are created and what features were possible.",
             "This lead into Java being my very first programming language.",
-            "From there my interest grew more. I started learning more indepth features of the game like NMS and Forge Modding.",
+            "From there my interest grew more. I started learning more indepth features of the game like NMS and Forge modding.",
             "Then I expanded my skills and began learning C++ for Reverse Engineering, Python, C#, and many other languages."
         ]
     }

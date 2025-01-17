@@ -12,11 +12,17 @@ import NavBar from './components/NavBar.vue';
 
 <style>
 	:root {
-		--background: 2, 8, 14;
-		--foreground: 217, 226, 216;
+		--background: 30, 41, 59;
+		--foreground: 148, 163, 184;
 		--highlight: 8, 201, 185;
+		--letter-spacing: 0.5px;
+		--line-height: 1.6;
+		--fontweight: 400;
+
 		background-color: rgb(var(--background));
 		color: rgb(var(--foreground));
+		line-height: var(--line-height);
+		letter-spacing: var(--letter-spacing);
 	}
 
 	#app {
@@ -24,6 +30,7 @@ import NavBar from './components/NavBar.vue';
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
+		font-weight: var(--fontweight);
 	}
 
 	a,

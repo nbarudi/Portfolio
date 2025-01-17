@@ -5,7 +5,7 @@
         "description": "Why! Its the website you're currently on!",
         "colour": "145, 48, 26",
         "icon": "logo.png",
-        "tags": ["js", "ts", "html", "css", "vue", "git"],
+        "tags": ["ts", "html", "css", "vue", "git"],
         "description_long": "This website was made to more properly show the different projects I worked on. I realized that my original method of just giving people a Github profile without a Profile ReadMe was not the best way to handle job applications. But this website was a lot of fun to design and I am happy with the way it turned out. I took a lot of inspiration from DaniDipps portfolio but still did my best to add my own little twists on the design. The website was designed using Vue Components as a base and then dynamically built through reading a set few Json files to allow for quick editing and additions to the portfolio. <br/> The website was then placed onto a dedicated server into a Kubernetes based Docker Environment to keep it running constantly, even between updates! <br/>I had also made use of Githubs CICD platform to automatically build and upload the website to the server",
         "tech": [
             {

@@ -8,7 +8,7 @@
                     <h3>{{ item.location }}</h3>
                     <p>{{ item.startdate }} - {{ item.enddate }}</p>
                     <div class="tags">
-                        <TagComponent v-for="tag in item.tags" :key="tag" :tagId="tag" />
+                        <TagComponent v-for="tag in item.formatted" :key="tag" :tagObject="tag" />
                     </div>
                     <ul>
                         <li v-for="detail in item.details" :key="detail" v-html="detail"></li>
@@ -33,6 +33,44 @@
         },
         components: {
             TagComponent
+        },
+        setup({section}) {
+
+            for(let item of section.content){
+
+                let formattedTags = []
+
+                for(var tag of item.tags) {
+                    let splitData = tag.split(" ")
+                    if(splitData.length > 1){
+                        formattedTags.push({
+                            name: splitData[0],
+                            perc: splitData[1]
+                        })
+                    }
+                    else {
+                        formattedTags.push({
+                            name: splitData[0]
+                        })
+                    }
+                }
+
+                formattedTags.sort((a, b) => {
+                    if(a.perc && !b.perc) return -1
+                    else if(!a.perc && b.perc) return 1
+                    else if(!a.perc && !b.perc) return 0
+
+                    if(a.perc > b.perc) return -1
+                    else if(a.perc == b.perc) return 0
+                    else return 1
+                })
+
+                item.formatted = formattedTags
+            }
+
+            return {
+                section
+            }
         }
     })
 </script>
