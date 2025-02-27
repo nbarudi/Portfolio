@@ -30,8 +30,10 @@ jobs:
          -  name: Upload via SCP
             uses: appleboy/scp-action@v0.1.7
             with:
-                source: dist/assets,dist/index.html,dist/logo.ico
+                source: ./dist/*.*
                 target: /var/www/html
+                overwrite: 1
+                strip_components: 1
                 host: ${{secrets.SSH_HOST}}
                 username: ${{secrets.SSH_USERNAME}}
                 password: ${{secrets.SSH_PASSWORD}}
