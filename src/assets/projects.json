@@ -61,6 +61,117 @@
             }
         ]
     },
+    {
+        "id": "brackeysgj20251",
+        "name": "Brackeys Game Jam 2025.1",
+        "description": "My very first Game Jam",
+        "colour": "215, 3, 252",
+        "icon": "icon.png",
+        "tags": ["cs", "git", "unity"],
+        "description_long": "This was the very first Game Jam I have ever participated in. The idea game with my goal of starting up some new project to learn something new but not being sure where to begin. Both myself and my friend Umair worked together to create Atychi (also known as Fear of Faliure) for the Game Jam. We had 1 week to gather information about the theme, plan out our concept, and implement all of the ideas we had in mind to successfully complete the game. We got to experience the full development experience on a short timeline and we succeeded in creating something we were proud of. You can take a look at the game on itch.io <a href='https://nbarudi.itch.io/atychi' target='_blank'>here</a>. <br/>This project was so much fun to work on and it also lead me to research into organizational tools and GitHub alternatives which were more game development focused. I began hosting a custom task board on my server making use of Planka. As well we looked into Diversion to handle our version control. ",
+        "tech": [
+            {
+                "name": "Unity",
+                "url": "https://unity.com",
+                "usage": "Game Engine"
+            },
+            {
+                "name": "Planka",
+                "url": "https://planka.app",
+                "usage": "Task Management"
+            },
+            {
+                "name": "Diversion",
+                "url": "https://www.diversion.dev",
+                "usage": "Version Control"
+            }
+        ],
+        "images": [
+            {
+                "name": "Our Game Logo",
+                "file": "gameText.png",
+                "caption": "The Logo for Atychi"
+            },
+            {
+                "name": "Game Map",
+                "file": "map.png",
+                "caption": "The map for our game"
+            },
+            {
+                "name": "Main Menu",
+                "file": "menu.png",
+                "caption": "Main Menu for the game"
+            },
+            {
+                "name": "UhOh",
+                "file": "uhoh.png",
+                "caption": "Things start going wrong"
+            },
+            {
+                "name": "Planka",
+                "file": "planka.png",
+                "caption": "Planka for task management"
+            }
+        ]
+    },
+    {
+        "id": "sneakyqol",
+        "name": "SneakyQoL",
+        "description": "A Minecraft Mod I created and maintain.",
+        "colour": "237, 160, 66",
+        "icon": "icon.webp",
+        "tags": ["java", "minecraft", "git", "gradle"],
+        "description_long": "<a href='https://modrinth.com/mod/sneakyqol' target='_blank'>Welcome to Sneaky Quality of Life.</a><br/><br/>This mod was created for use on the Lords of Minecraft 2 Server which was created by Team SneakyMouse! The mod contains many small features to enhance the Lords of Minecraft experience for both community members and streamers alike! This mod contains many features from Camera Leaning, Voice to Text, Player Radar for finding people to RP with, and command macros for many of the common Lords of Minecraft commands!<br/><br/>Here are some of the Keybinds which you will be able to use with this mod installed:<br/><br/>Hold Key to Show Player Names<br/>Hold Key to Lean Left<br/>Hold Key to Lean Right<br/>Hold Key for Voice to Text<br/>Press to Toggle Player Radar<br/>Trigger LoM2 Commands Such As:<br/>/sit<br/>/lay<br/>/bellyflop<br/>/fury<br/>/campfire<br/>/mcl<br/>/walk<br/>/me :O<br/>/mee sneaking<br/>/me smells the flowers<br/>/me waves<br/>/me salutes<br/>Toggle Better Sneak - Crouching without the slowdown effect<br/>A large number of the Keybinds come default unbound allowing you to decide what is most comfortable to to use and which keys are needed to enhance your roleplay.<br/><br/>Some of the features within the mod are as follows:<br/><br/>Camera Leaning<br/><br/>When holding down Q & E (Default Keys) you can move your camera right or left, similar to how you can lean in games such as Rainbow 6 Siege. This is a client-sided feature, so other players will not see you leaning, however it can enhance your personal experience when trying to sneak or spy on others in roleplay.<br/>Show Player Names<br/><br/>While holding Left Alt (Default Key) you can view a persons username to the right of your crosshair. This means while on the Lords of Minecraft, or Dwarves Vs Zombies server you can leave Character Nametags enabled to avoid ruining the emersion.<br/>Radar:<br/><br/>Sometimes, a lot of the experience in Lords of Minecraft is spent running around trying to find someone to talk to or create A Bit with. When you toggle on the radar you can see how close players are to you allowing you to find them much quicker!<br/>Voice-to-Text:<br/><br/>Voice-to-Text uses an Offline AI Model. As such, no recordings are ever stored on the machine or sent to any external servers. This means user experience can vary depending on the speed of the user's machine or how much RAM they have.<br/>By default, this mod uses Vosk's AI models to handle voice to text. By default, it comes shipped with the smallest US English model they supply, vosk-model-small-en-us-0.15. Should you want to swap out the model, you can download any version off their website and replace the files in the folder: config/sneakyqol/vosk-model.<br/>Voice to text is more geared towards players who are accepted into Lords of Minecraft's Voice Chat community who would still like to easily interact with players in Text Chat.<br/>Note: Vosk Models tend to have a large RAM overhead; for example, vosk-model-en-us-0.42-gigaspeech can use up to 10gb when loaded on boot)<br/><br/>LoM Commands:<br/>Currently, many of the most common Lords of Minecraft commands and /me actions that you will use are given keybinds which you can set as needed. The binds simply remove the need of running the commands in chat.",
+        "tech": [
+            {
+                "name": "Java",
+                "url": "https://www.java.com",
+                "usage": "The Main Language of Minecraft"
+            },
+            {
+                "name": "Gradle",
+                "url": "https://gradle.org",
+                "usage": "Used to build the project"
+            },
+            {
+                "name": "Git",
+                "url": "https://git-scm.com",
+                "usage": "Used for Source Control"
+            },
+            {
+                "name": "Fabric",
+                "url": "https://fabricmc.net",
+                "usage": "Minecraft Modding Library"
+            }
+        ],
+        "images": [
+            {
+                "name": "Icon",
+                "file": "icon.webp",
+                "caption": "Mod's Icon"
+            },
+            {
+                "name": "Simple Player Radar",
+                "file": "radar.webp",
+                "caption": "Simple radar to show how far players are"
+            },
+            {
+                "name": "Binds",
+                "file": "binds.png",
+                "caption": "Command Shortcuts for the server"
+            },
+            {
+                "name": "FP Leans",
+                "file": "leaning.webp",
+                "caption": "Lean around corners to take a look"
+            },
+            {
+                "name": "TP Lean",
+                "file": "tplean.webp",
+                "caption": "Leaning but in third person"
+            }
+        ]
+    },
 	{
         "id": "sneakychar",
         "name": "SneakyCharacterManager",

@@ -19,5 +19,26 @@
             "From there my interest grew more. I started learning more indepth features of the game like NMS and Forge modding.",
             "Then I expanded my skills and began learning C++ for Reverse Engineering, Python, C#, and many other languages."
         ]
+    },
+    {
+        "id": "howitsgoing",
+        "name": "How It's Going",
+        "details": [
+            "My interest in developing mods and software for games lead me down the path of Computer Science.",
+            "I decided I wanted to further my knowledge by completing a Bachelors of Science majoring in Computer Science.",
+            "I officially completed this goal as of December 2024 and I will continue to grow my skills into the future.",
+            "Now I am doing the most I can to keep my knoweldge increasing by both learning new technologies and touching up on old software.",
+            "I've also practiced managing Linux Servers (such as the one where this website is hosted) and I currently own 2 dedicated enterprise machines."
+        ]
+    }, 
+    {
+        "id": "whatimlookingfor",
+        "name": "What I'm Looking For",
+        "details": [
+            "My current goals consist of continuing my search for knoweldge by working at a company which will support growth.",
+            "I want to gain more experience in the field and find somewhere which I can put my skills to good use.",
+            "I'm looking to continue the passion I have for software development everywhere I can. Both Professional and Personal.",
+            "I love learning new things and I'm always seeking the next new project or skill that I can learn, either self taught or shown."
+        ]
     }
 ]

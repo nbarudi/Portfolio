@@ -191,5 +191,10 @@
         "id": "junit",
         "name": "JUnit",
         "colour": "230, 195, 0"
+    },
+    {
+        "id": "unity",
+        "name": "Unity",
+        "colour": "71, 71, 71"
     }
 ]
