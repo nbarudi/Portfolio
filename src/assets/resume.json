@@ -11,24 +11,24 @@
                 "enddate": "Auguest 2024",
                 "tags": ["java 70", "js 10", "html 10", "css 10", "spring 60", "mysql 30", "python 20", "git", "maven", "docker", "kubernetes"],
                 "details": [
-                    "Designed and implemented Spring Boot solutions, ensuring compliance with RESTful practices to deliver reliable services. Documented best practices to improve developer workflows, boosting project consistency and efficiency.",
-                    "Managed MonoRepo systems for integrated Docker builds and automated GitLab CI/CD pipelines, enabling seamless deployment of microservices and reducing overhead.",
-                    "Automated the publication of service statistics to Kafka and Elastic, streamlining task allocation and improving business team productivity.",
-                    "Led a student team to develop API services for phone management, enhancing client interactions and streamlining internal processes."
+                    "Develop Java Spring Boot services to decouple dashboards, enhancing system efficiency.",
+                    "Automate deployment of service stats to Kafka and Elastic, streamlining task management.",
+                    "Lead team in creating Python FastAPI services, managing millions of phone numbers nationwide",
+                    "Oversee OpenShift builds and deployments using Kubernetes and Docker for microservices."
                 ]
             },
             {
                 "id": "cse",
-                "location": "Government of Canada - Remote",
+                "location": "Government of Canada - Communications Security Establishment - Remote",
                 "title": "Software Developer Intern",
                 "startdate": "September 2022",
                 "enddate": "December 2022",
                 "tags": ["cs 40", "vb 40", "dotnet 20", "git"],
                 "details": [
-                    "I was hired as a Co-Op student and later transitioned to a Part-Time role in the Business Sector to continue academic studies while contributing professionally.",
-                    "Onboarded and trained in using UIPath, a robotic process automation (RPA) tool designed to replicate human interactions with computers for tasks such as data entry and email automation.",
-                    "Tasked with optimizing the organization's Data Library by transitioning from a reliance on screen-clicks to more efficient API calls, enhancing the library's performance and reliability.",
-                    "Successfully implemented improvements that significantly reduced task execution times by eliminating delays caused by screen interactions."
+                    "Developed RPA services, cutting document management time, enhancing workflow efficiency.",
+                    "Created HTTP request libraries for future API use, streamlining integration.",
+                    "Led automation projects, modernizing document access, boosting operational efficiency.",
+                    "Adapted to UI-Path swiftly, meeting project requirements effectively."
                 ]
             }
         ]
